@@ -39,5 +39,5 @@ def print_map(map):
     print()
 
 sys.setrecursionlimit(size * size) # python is bad this should be enough to loop through everything, so long as user wont enter a billion
-build(map, size / 2, size / 2)
+build(map, int(size / 2), int(size / 2))
 print_map(map)
